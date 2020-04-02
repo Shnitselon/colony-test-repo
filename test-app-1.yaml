@@ -1,20 +1,20 @@
-spec_version: 1        more-info-2.png
+spec_version: 1        
 kind: application
-inputs:                 more-info-2.png
+inputs:                 
   - ...: '' 
   - ...: '' 
 infrastructure:         more-info-2.png
   compute:              more-info-2.png
     spec:
       azure:
-        vm_size: ...
+        vm_size: Standard_A3
       aws: 
-        instance_type: ...
+        instance_type: t2.medium
   connectivity:         more-info-2.png  width=
     external:
       - port_info:
           path: ''
-          port: ....
+          port: 5050
     Internal:
       - port_info:
           path: ''
@@ -24,12 +24,12 @@ infrastructure:         more-info-2.png
       iam_instance_profile:
         aws:  ...
 source:                 more-info-2.png
-  os_type: ...
+  os_type: Windows
   image:
     ami:
-      - id: ...
-        region: ...
-        username: ...
+      - id: 	ami-2865093e
+        region: us-east-1	
+        username: precise
     azure_image:
       - urn: ...
         username: ...
