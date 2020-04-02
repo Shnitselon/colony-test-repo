@@ -1,0 +1,43 @@
+spec_version: 1        more-info-2.png
+kind: application
+inputs:                 more-info-2.png
+  - ...: '' 
+  - ...: '' 
+infrastructure:         more-info-2.png
+  compute:              more-info-2.png
+    spec:
+      azure:
+        vm_size: ...
+      aws: 
+        instance_type: ...
+  connectivity:         more-info-2.png  width=
+    external:
+      - port_info:
+          path: ''
+          port: ....
+    Internal:
+      - port_info:
+          path: ''
+          port: ....
+  permissions:          more-info-2.png  width=
+    aws:
+      iam_instance_profile:
+        aws:  ...
+source:                 more-info-2.png
+  os_type: ...
+  image:
+    ami:
+      - id: ...
+        region: ...
+        username: ...
+    azure_image:
+      - urn: ...
+        username: ...
+configuration:          more-info-2.png
+  initialization:
+    script: ....sh
+  start:
+    script: ....sh
+  healthcheck:
+      wait_for_ports: ...
+      timeout: ...
