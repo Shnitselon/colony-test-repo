@@ -27,8 +27,8 @@ source:                 more-info-2.png
   os_type: Windows
   image:
     ami:
-      - id: 	ami-2865093e
-        region: us-east-1	
+      - id: 	ami-5c78753a
+        region: eu-west-1	
         username: precise
     azure_image:
       - urn: ...
