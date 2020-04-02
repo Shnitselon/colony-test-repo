@@ -6,7 +6,7 @@ metadata:
       name: steve
       motivation: steve-test
 clouds:               
-  - aws: us-east-1
+  - aws: eu-west-1
 artifacts:            More Info
   - ...: ...
   - ...: ...
