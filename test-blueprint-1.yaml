@@ -1,10 +1,12 @@
 spec_version: 1
-kind: blueprint       more-info-2.png
-metadata:             more-info-2.png
-  description: ...
-  tags: ...
-clouds:               More Info
-  - ...: ...
+kind: blueprint
+metadata:             
+  description: This is Steve's 1st test blueprint.
+  tags:
+      name: steve
+      motivation: steve-test
+clouds:               
+  - aws: us-east-1
 artifacts:            More Info
   - ...: ...
   - ...: ...
